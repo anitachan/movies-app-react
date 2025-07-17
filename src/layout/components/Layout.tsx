@@ -1,9 +1,9 @@
-// src/components/layout/Layout.tsx
 import { useState } from 'react';
-import { Box, Typography } from '@mui/material';
+import { Box } from '@mui/material';
 import { styled } from '@mui/material/styles';
 import { Sidebar } from './Sidebar';
 import { Toolbar } from './Toolbar';
+import { AppRouter } from '../../router/AppRouter';
 
 const drawerWidth = 240;
 
@@ -12,7 +12,7 @@ const Main = styled('main', { shouldForwardProp: (prop) => prop !== 'open' })<{
 }>(({ theme, open }) => ({
 	flexGrow: 1,
 	padding: theme.spacing(3),
-	marginLeft: open ? 0 : `-${drawerWidth}px`,
+
 	transition: theme.transitions.create('margin', {
 		easing: theme.transitions.easing.sharp,
 		duration: open ? theme.transitions.duration.enteringScreen : theme.transitions.duration.leavingScreen,
@@ -35,7 +35,7 @@ export const Layout = () => {
 			<Sidebar open={open} handleDrawerClose={handleDrawerClose} drawerWidth={drawerWidth} />
 			<Main open={open}>
 				<DrawerHeader />
-				<Typography paragraph>Aquí va el contenido principal.</Typography>
+				<AppRouter />
 			</Main>
 		</Box>
 	);
