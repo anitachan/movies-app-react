@@ -1,5 +1,8 @@
-import React from 'react';
+import { Dashboard } from '../components/Dashboard';
+import { useMovies } from '../hooks/useMovies';
 
 export const HomePage = () => {
-	return <div>Home</div>;
+	const { movies, loadMore } = useMovies();
+
+	return <Dashboard movies={movies} loadMore={loadMore} />;
 };

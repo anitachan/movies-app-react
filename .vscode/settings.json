@@ -5,5 +5,10 @@
 			"source.removeUnusedImports": "explicit"
 		}
 	},
-	"editor.formatOnSave": true
+	"editor.formatOnSave": true,
+	"jest.runMode": {
+		"coverage": true,
+		"runAllTestsOnStartup": false,
+		"type": "on-demand"
+	}
 }
