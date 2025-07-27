@@ -372,7 +372,7 @@ describe('UseMovies', () => {
 		await waitFor(() => {
 			const { movies, loading, error, loadMore } = result.current;
 			expect(movies).toEqual([])
-			expect(error).toEqual('Loading movie error')
+			expect(error).toEqual('Loading movies error')
 			expect(loadMore).toEqual(expect.any(Function))
 			expect(loading).toBe(false)
 			expect(getMovies).toHaveBeenCalledWith(1);

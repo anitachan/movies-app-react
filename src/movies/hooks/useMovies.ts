@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import type { Movie } from "../models/Movies";
+import type { Movie } from "../models/movies";
 import { getMovies } from "../services/tmdbApi";
 
 export const useMovies = () => {
@@ -18,7 +18,7 @@ export const useMovies = () => {
                 const result = await getMovies(page);
                 setMovies((prev) => [...prev, ...result]);
             } catch {
-                setError("Loading movie error");
+                setError("Loading movies error");
             } finally {
                 setLoading(false);
             }

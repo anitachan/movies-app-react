@@ -1,18 +1,22 @@
 import { Breadcrumbs as MuiBreadcrumbs, Link, Typography, SvgIconTypeMap } from '@mui/material';
-import { Link as RouterLink, useLocation } from 'react-router-dom';
+import { useLocation } from 'react-router-dom';
 import NavigateNextIcon from '@mui/icons-material/NavigateNext';
 import HomeIcon from '@mui/icons-material/Home';
 import FavoriteIcon from '@mui/icons-material/Favorite';
+import ArtTrackIcon from '@mui/icons-material/ArtTrack';
 import { OverridableComponent } from '@mui/material/OverridableComponent';
+import { Person } from '@mui/icons-material';
 
 const breadcrumbNameMap: Record<string, { text: string; icon: OverridableComponent<SvgIconTypeMap> }> = {
 	'/home': { text: 'Home', icon: HomeIcon },
 	'/favorites': { text: 'Favorites', icon: FavoriteIcon },
+	'/details': { text: 'Details', icon: ArtTrackIcon },
+	'/actor': { text: 'Actor', icon: Person },
 };
 
 export const Breadcrumbs = () => {
 	const location = useLocation();
-	const pathnames = location.pathname.split('/').filter((x) => x);
+	const pathNames = location.pathname.split('/').filter((x) => x);
 
 	return (
 		<MuiBreadcrumbs
@@ -29,28 +33,22 @@ export const Breadcrumbs = () => {
 					Movies
 				</Link>
 			</Typography>
-			{pathnames.map((value, index) => {
-				const to = `/${pathnames.slice(0, index + 1).join('/')}`;
-				const isLast = index === pathnames.length - 1;
-				const { icon: Icon, text } = breadcrumbNameMap[to];
+			{pathNames.map((value, index) => {
+				const to = `/${pathNames.slice(0, index + 1).join('/')}`;
 
-				return isLast ? (
+				const prevSegment = pathNames[index - 1];
+				const isMovieIdSegment = prevSegment === 'details' || prevSegment === 'actor';
+
+				if (isMovieIdSegment) return null;
+
+				const matchKey = Object.keys(breadcrumbNameMap).find((key) => to.startsWith(key));
+				const { icon: Icon, text } = breadcrumbNameMap[matchKey ?? ''] ?? { icon: HomeIcon, text: value };
+
+				return (
 					<Typography key={to} color="white" sx={{ display: 'flex', alignItems: 'center', gap: 0.5 }}>
 						<Icon fontSize="small" />
-						{text || value}
+						{text}
 					</Typography>
-				) : (
-					<Link
-						key={to}
-						underline="hover"
-						color="inherit"
-						component={RouterLink}
-						to={to}
-						sx={{ display: 'flex', alignItems: 'center', gap: 0.5 }}
-					>
-						<Icon fontSize="small" />
-						{text || value}
-					</Link>
 				);
 			})}
 		</MuiBreadcrumbs>

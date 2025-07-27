@@ -13,7 +13,7 @@ export interface Movie {
     title: string;
     vote_average: number;
     overview: string;
-    release_date?: Date;
+    release_date?: string;
     poster_url?: string;
 }
 

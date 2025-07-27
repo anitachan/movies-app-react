@@ -4,15 +4,15 @@ import { setupMockIntersectionObserver, getLatestObserverInstance } from './inte
 
 setupMockIntersectionObserver();
 
-function TestComponent({ onIntersect }: { onIntersect: () => void }) {
+const TestComponent = ({ onIntersect }: { onIntersect: () => void }) => {
 	const loaderRef = useInfiniteScroll(onIntersect);
 	return <div data-testid="loader" ref={loaderRef} />;
-}
+};
 
-function NoLoaderComponent({ onIntersect }: { onIntersect: () => void }) {
+const NoLoaderComponent = ({ onIntersect }: { onIntersect: () => void }) => {
 	useInfiniteScroll(onIntersect);
 	return <span data-testid="nothing" />;
-}
+};
 
 describe('useInfiniteScroll', () => {
 	test('should call a callback when loader enter to the view', () => {
@@ -47,7 +47,7 @@ describe('useInfiniteScroll', () => {
 		expect(() => getLatestObserverInstance()).toThrow('No IntersectionObserver instance was created');
 	});
 
-	it('should not create an observer if never load and assign the ref', () => {
+	test('should not create an observer if never load and assign the ref', () => {
 		const callback = jest.fn();
 		render(<NoLoaderComponent onIntersect={callback} />);
 

@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dashboard Dashboard matches snapshot 1`] = `
+<div>
+  <div
+    class="MuiBox-root css-1cvwnaj"
+  />
+  <div
+    data-testid="loader"
+    style="height: 60px;"
+  />
+</div>
+`;
