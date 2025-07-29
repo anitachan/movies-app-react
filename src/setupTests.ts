@@ -3,6 +3,6 @@
 // expect(element).toHaveTextContent(/react/i)
 // learn more: https://github.com/testing-library/jest-dom
 import '@testing-library/jest-dom';
-import { setupMockIntersectionObserver } from './movies/hooks/interceptor.test-helper';
+import { setupMockIntersectionObserver } from '../test-utils/interceptor.test-helper';
 
 setupMockIntersectionObserver(); // <--- esto es clave

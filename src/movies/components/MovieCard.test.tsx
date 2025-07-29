@@ -1,48 +1,53 @@
-import { render, screen } from '@testing-library/react';
+import { fireEvent, render, screen } from '@testing-library/react';
 import { MovieCard } from './MovieCard';
-import { Movie, OriginalLanguage } from '../models/movies';
+import { Movie } from '../models/movies.model';
+import { create, fixtureOf } from 'ts-mock-autofixture-kit';
 
-const movie: Movie = {
-	adult: false,
-	backdrop_path: '/t9nyF3r0WAlJ7Kr6xcRYI4jr9jm.jpg',
-	genre_ids: [878, 28],
-	id: 580489,
-	original_language: OriginalLanguage.En,
-	original_title: 'Venom: Let There Be Carnage',
-	overview:
-		'After finding a host body in investigative reporter Eddie Brock, the alien symbiote must face a new enemy, Carnage, the alter ego of serial killer Cletus Kasady.',
-	popularity: 10352.991,
-	poster_path: '/rjkmN1dniUHVYAtwuV3Tji7FsDO.jpg',
-	release_date: '2021-09-30',
-	title: 'Venom: Let There Be Carnage',
-	video: false,
-	vote_average: 7.2,
-	vote_count: 518,
-};
+const mockUseNavigate = jest.fn();
+const movieMock = create<Movie>();
+jest.mock(
+  'react-router-dom',
+  () => ({
+    useNavigate: () => mockUseNavigate,
+  }),
+  { virtual: true },
+);
 
 describe('MovieCard', () => {
-	test('MovieCard matches snapshot', () => {
-		const { container } = render(<MovieCard movie={movie} />);
-		expect(container).toMatchSnapshot();
-	});
+  test('MovieCard matches snapshot', () => {
+    const movie = fixtureOf<Movie>()
+      .with('title', () => 'The Matrix')
+      .with('overview', () => 'Un hacker descubre la verdad…')
+      .with('backdrop_path', () => '/matrix.jpg')
+      .with('vote_average', () => 8.7)
+      .with('id', () => 42)
+      .create();
 
-	test('should render title, description, button and a image', () => {
-		render(<MovieCard movie={movie} />);
-		const images = screen.getAllByRole('img').filter((img) => img.hasAttribute('alt'));
+    const { container } = render(<MovieCard movie={movie} />);
+    expect(container).toMatchSnapshot();
+  });
 
-		expect(screen.getByText('Venom: Let There Be Carnage')).toBeInTheDocument();
-		expect(
-			screen.getByText(
-				'After finding a host body in investigative reporter Eddie Brock, the alien symbiote must face a new enemy, Carnage, the alter ego of serial killer Cletus Kasady.'
-			)
-		).toBeInTheDocument();
-		expect(images).toHaveLength(1);
-		expect(screen.getAllByRole('button')).toHaveLength(1);
-	});
+  test('should render title, description, button and a image', () => {
+    render(<MovieCard movie={movieMock} />);
+    const images = screen.getAllByRole('img').filter((img) => img.hasAttribute('alt'));
 
-	test('should render "Ver más" button for each movie', () => {
-		render(<MovieCard movie={movie} />);
-		const buttons = screen.getAllByRole('button', { name: 'Ver más' });
-		expect(buttons).toHaveLength(1);
-	});
+    expect(screen.getByText(movieMock.title)).toBeInTheDocument();
+    expect(screen.getByText(movieMock.overview)).toBeInTheDocument();
+    expect(images).toHaveLength(1);
+    expect(screen.getAllByRole('button')).toHaveLength(1);
+  });
+
+  test('should render "Ver más" button for each movie', () => {
+    render(<MovieCard movie={movieMock} />);
+    const buttons = screen.getAllByRole('button', { name: 'See More' });
+    expect(buttons).toHaveLength(1);
+  });
+
+  test('should redirect when see more is clicked', () => {
+    render(<MovieCard movie={movieMock} />);
+    const button = screen.getByText('See More');
+    fireEvent.click(button);
+
+    expect(mockUseNavigate).toHaveBeenCalledWith(`/details/${movieMock.id}`);
+  });
 });

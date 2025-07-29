@@ -6,9 +6,9 @@ exports[`MovieCard MovieCard matches snapshot 1`] = `
     class="MuiBox-root css-79elbk"
   >
     <img
-      alt="Venom: Let There Be Carnage"
+      alt="The Matrix"
       loading="lazy"
-      src="https://image.tmdb.org/t/p/original/t9nyF3r0WAlJ7Kr6xcRYI4jr9jm.jpg?w=400&fit=crop&auto=format"
+      src="https://image.tmdb.org/t/p/original/matrix.jpg?w=400&fit=crop&auto=format"
       style="width: 100%; height: auto; object-fit: cover; display: block; border-radius: 4px;"
     />
     <div
@@ -20,18 +20,18 @@ exports[`MovieCard MovieCard matches snapshot 1`] = `
         <h6
           class="MuiTypography-root MuiTypography-subtitle1 css-or3kzz-MuiTypography-root"
         >
-          Venom: Let There Be Carnage
+          The Matrix
         </h6>
         <p
           class="MuiTypography-root MuiTypography-body2 css-kmlvkz-MuiTypography-root"
         >
-          After finding a host body in investigative reporter Eddie Brock, the alien symbiote must face a new enemy, Carnage, the alter ego of serial killer Cletus Kasady.
+          Un hacker descubre la verdad…
         </p>
         <div
           class="MuiStack-root css-kdc3n8-MuiStack-root"
         >
           <span
-            aria-label="7.2 Stars"
+            aria-label="8.7 Stars"
             class="MuiRating-root MuiRating-sizeMedium Mui-readOnly css-i0l71t-MuiRating-root"
             role="img"
           >
@@ -1402,7 +1402,7 @@ exports[`MovieCard MovieCard matches snapshot 1`] = `
                 </span>
               </span>
               <span
-                style="width: 20%; overflow: hidden; position: absolute;"
+                style="width: 0%; overflow: hidden; position: absolute;"
               >
                 <span
                   class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
@@ -1424,17 +1424,17 @@ exports[`MovieCard MovieCard matches snapshot 1`] = `
                 style="width: 0%; overflow: hidden; position: absolute;"
               >
                 <span
-                  class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+                  class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
                 >
                   <svg
                     aria-hidden="true"
                     class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
-                    data-testid="StarBorderIcon"
+                    data-testid="StarIcon"
                     focusable="false"
                     viewBox="0 0 24 24"
                   >
                     <path
-                      d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
                     />
                   </svg>
                 </span>
@@ -1443,17 +1443,17 @@ exports[`MovieCard MovieCard matches snapshot 1`] = `
                 style="width: 0%; overflow: hidden; position: absolute;"
               >
                 <span
-                  class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+                  class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
                 >
                   <svg
                     aria-hidden="true"
                     class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
-                    data-testid="StarBorderIcon"
+                    data-testid="StarIcon"
                     focusable="false"
                     viewBox="0 0 24 24"
                   >
                     <path
-                      d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
                     />
                   </svg>
                 </span>
@@ -1462,17 +1462,17 @@ exports[`MovieCard MovieCard matches snapshot 1`] = `
                 style="width: 0%; overflow: hidden; position: absolute;"
               >
                 <span
-                  class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+                  class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
                 >
                   <svg
                     aria-hidden="true"
                     class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
-                    data-testid="StarBorderIcon"
+                    data-testid="StarIcon"
                     focusable="false"
                     viewBox="0 0 24 24"
                   >
                     <path
-                      d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
                     />
                   </svg>
                 </span>
@@ -1481,17 +1481,17 @@ exports[`MovieCard MovieCard matches snapshot 1`] = `
                 style="width: 0%; overflow: hidden; position: absolute;"
               >
                 <span
-                  class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+                  class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
                 >
                   <svg
                     aria-hidden="true"
                     class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
-                    data-testid="StarBorderIcon"
+                    data-testid="StarIcon"
                     focusable="false"
                     viewBox="0 0 24 24"
                   >
                     <path
-                      d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
                     />
                   </svg>
                 </span>
@@ -1500,17 +1500,17 @@ exports[`MovieCard MovieCard matches snapshot 1`] = `
                 style="width: 0%; overflow: hidden; position: absolute;"
               >
                 <span
-                  class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+                  class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
                 >
                   <svg
                     aria-hidden="true"
                     class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
-                    data-testid="StarBorderIcon"
+                    data-testid="StarIcon"
                     focusable="false"
                     viewBox="0 0 24 24"
                   >
                     <path
-                      d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
                     />
                   </svg>
                 </span>
@@ -1519,17 +1519,17 @@ exports[`MovieCard MovieCard matches snapshot 1`] = `
                 style="width: 0%; overflow: hidden; position: absolute;"
               >
                 <span
-                  class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+                  class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
                 >
                   <svg
                     aria-hidden="true"
                     class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
-                    data-testid="StarBorderIcon"
+                    data-testid="StarIcon"
                     focusable="false"
                     viewBox="0 0 24 24"
                   >
                     <path
-                      d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
                     />
                   </svg>
                 </span>
@@ -1538,34 +1538,34 @@ exports[`MovieCard MovieCard matches snapshot 1`] = `
                 style="width: 0%; overflow: hidden; position: absolute;"
               >
                 <span
-                  class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+                  class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
                 >
                   <svg
                     aria-hidden="true"
                     class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
-                    data-testid="StarBorderIcon"
+                    data-testid="StarIcon"
                     focusable="false"
                     viewBox="0 0 24 24"
                   >
                     <path
-                      d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
                     />
                   </svg>
                 </span>
               </span>
               <span>
                 <span
-                  class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+                  class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
                 >
                   <svg
                     aria-hidden="true"
                     class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
-                    data-testid="StarBorderIcon"
+                    data-testid="StarIcon"
                     focusable="false"
                     viewBox="0 0 24 24"
                   >
                     <path
-                      d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
                     />
                   </svg>
                 </span>
@@ -1578,17 +1578,17 @@ exports[`MovieCard MovieCard matches snapshot 1`] = `
                 style="width: 0%; overflow: hidden; position: absolute;"
               >
                 <span
-                  class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+                  class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
                 >
                   <svg
                     aria-hidden="true"
                     class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
-                    data-testid="StarBorderIcon"
+                    data-testid="StarIcon"
                     focusable="false"
                     viewBox="0 0 24 24"
                   >
                     <path
-                      d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
                     />
                   </svg>
                 </span>
@@ -1597,17 +1597,17 @@ exports[`MovieCard MovieCard matches snapshot 1`] = `
                 style="width: 0%; overflow: hidden; position: absolute;"
               >
                 <span
-                  class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+                  class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
                 >
                   <svg
                     aria-hidden="true"
                     class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
-                    data-testid="StarBorderIcon"
+                    data-testid="StarIcon"
                     focusable="false"
                     viewBox="0 0 24 24"
                   >
                     <path
-                      d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
                     />
                   </svg>
                 </span>
@@ -1616,17 +1616,17 @@ exports[`MovieCard MovieCard matches snapshot 1`] = `
                 style="width: 0%; overflow: hidden; position: absolute;"
               >
                 <span
-                  class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+                  class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
                 >
                   <svg
                     aria-hidden="true"
                     class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
-                    data-testid="StarBorderIcon"
+                    data-testid="StarIcon"
                     focusable="false"
                     viewBox="0 0 24 24"
                   >
                     <path
-                      d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
                     />
                   </svg>
                 </span>
@@ -1635,17 +1635,17 @@ exports[`MovieCard MovieCard matches snapshot 1`] = `
                 style="width: 0%; overflow: hidden; position: absolute;"
               >
                 <span
-                  class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+                  class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
                 >
                   <svg
                     aria-hidden="true"
                     class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
-                    data-testid="StarBorderIcon"
+                    data-testid="StarIcon"
                     focusable="false"
                     viewBox="0 0 24 24"
                   >
                     <path
-                      d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
                     />
                   </svg>
                 </span>
@@ -1654,17 +1654,17 @@ exports[`MovieCard MovieCard matches snapshot 1`] = `
                 style="width: 0%; overflow: hidden; position: absolute;"
               >
                 <span
-                  class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+                  class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
                 >
                   <svg
                     aria-hidden="true"
                     class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
-                    data-testid="StarBorderIcon"
+                    data-testid="StarIcon"
                     focusable="false"
                     viewBox="0 0 24 24"
                   >
                     <path
-                      d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
                     />
                   </svg>
                 </span>
@@ -1673,36 +1673,36 @@ exports[`MovieCard MovieCard matches snapshot 1`] = `
                 style="width: 0%; overflow: hidden; position: absolute;"
               >
                 <span
-                  class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+                  class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
                 >
                   <svg
                     aria-hidden="true"
                     class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
-                    data-testid="StarBorderIcon"
+                    data-testid="StarIcon"
                     focusable="false"
                     viewBox="0 0 24 24"
                   >
                     <path
-                      d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
                     />
                   </svg>
                 </span>
               </span>
               <span
-                style="width: 0%; overflow: hidden; position: absolute;"
+                style="width: 70%; overflow: hidden; position: absolute;"
               >
                 <span
-                  class="MuiRating-icon MuiRating-iconEmpty css-9xw0na-MuiRating-icon"
+                  class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
                 >
                   <svg
                     aria-hidden="true"
                     class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
-                    data-testid="StarBorderIcon"
+                    data-testid="StarIcon"
                     focusable="false"
                     viewBox="0 0 24 24"
                   >
                     <path
-                      d="M22 9.24l-7.19-.62L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21 12 17.27 18.18 21l-1.63-7.03L22 9.24zM12 15.4l-3.76 2.27 1-4.28-3.32-2.88 4.38-.38L12 6.1l1.71 4.04 4.38.38-3.32 2.88 1 4.28L12 15.4z"
+                      d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
                     />
                   </svg>
                 </span>
@@ -1959,7 +1959,7 @@ exports[`MovieCard MovieCard matches snapshot 1`] = `
           <p
             class="MuiTypography-root MuiTypography-body2 css-7ctihp-MuiTypography-root"
           >
-            7.2
+            8.7
           </p>
         </div>
       </div>
@@ -1968,7 +1968,7 @@ exports[`MovieCard MovieCard matches snapshot 1`] = `
         tabindex="0"
         type="button"
       >
-        Ver más
+        See More
       </button>
     </div>
   </div>

@@ -1,5 +1,5 @@
 import { useEffect, useRef, useState } from "react";
-import type { Movie } from "../models/movies";
+import type { Movie } from "../models/movies.model";
 import { getMovies } from "../services/tmdbApi";
 
 export const useMovies = () => {
