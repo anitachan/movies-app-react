@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`HomePage CreditsCard matches snapshot 1`] = `<div />`;
+
+exports[`HomePage should render dashboard 1`] = `<div />`;

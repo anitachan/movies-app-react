@@ -1,0 +1,2454 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Accordion CreditsCard matches snapshot 1`] = `
+<div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded Mui-expanded MuiAccordion-gutters css-1808mag-MuiPaper-root-MuiAccordion-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <h3
+      class="MuiAccordion-heading css-cy7rkm-MuiAccordion-heading"
+    >
+      <button
+        aria-controls="panel1-content"
+        aria-expanded="true"
+        class="MuiButtonBase-root MuiAccordionSummary-root Mui-expanded MuiAccordionSummary-gutters css-1f1pi2l-MuiButtonBase-root-MuiAccordionSummary-root"
+        id="panel1-header"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiAccordionSummary-content Mui-expanded MuiAccordionSummary-contentGutters css-yfrx4k-MuiAccordionSummary-content"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-body1 css-rizt0-MuiTypography-root"
+          >
+            Synopsis
+          </span>
+        </span>
+        <span
+          class="MuiAccordionSummary-expandIconWrapper Mui-expanded css-1wqf3nl-MuiAccordionSummary-expandIconWrapper"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+            data-testid="ExpandMoreIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+            />
+          </svg>
+        </span>
+      </button>
+    </h3>
+    <div
+      class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-entered css-qr6njo-MuiCollapse-root"
+      style="min-height: 0px;"
+    >
+      <div
+        class="MuiCollapse-wrapper MuiCollapse-vertical css-1x6hinx-MuiCollapse-wrapper"
+      >
+        <div
+          class="MuiCollapse-wrapperInner MuiCollapse-vertical css-1i4ywhz-MuiCollapse-wrapperInner"
+        >
+          <div
+            aria-labelledby="panel1-header"
+            class="MuiAccordion-region"
+            id="panel1-content"
+            role="region"
+          >
+            <div
+              class="MuiAccordionDetails-root css-1lj39kh-MuiAccordionDetails-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-rizt0-MuiTypography-root"
+              >
+                aGTqxm8FGpgY
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded Mui-expanded MuiAccordion-gutters css-1808mag-MuiPaper-root-MuiAccordion-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <h3
+      class="MuiAccordion-heading css-cy7rkm-MuiAccordion-heading"
+    >
+      <button
+        aria-controls="panel2-content"
+        aria-expanded="true"
+        class="MuiButtonBase-root MuiAccordionSummary-root Mui-expanded MuiAccordionSummary-gutters css-1f1pi2l-MuiButtonBase-root-MuiAccordionSummary-root"
+        id="panel2-header"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiAccordionSummary-content Mui-expanded MuiAccordionSummary-contentGutters css-yfrx4k-MuiAccordionSummary-content"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-body1 css-rizt0-MuiTypography-root"
+          >
+            Budget
+          </span>
+        </span>
+        <span
+          class="MuiAccordionSummary-expandIconWrapper Mui-expanded css-1wqf3nl-MuiAccordionSummary-expandIconWrapper"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+            data-testid="ExpandMoreIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+            />
+          </svg>
+        </span>
+      </button>
+    </h3>
+    <div
+      class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-entered css-qr6njo-MuiCollapse-root"
+      style="min-height: 0px;"
+    >
+      <div
+        class="MuiCollapse-wrapper MuiCollapse-vertical css-1x6hinx-MuiCollapse-wrapper"
+      >
+        <div
+          class="MuiCollapse-wrapperInner MuiCollapse-vertical css-1i4ywhz-MuiCollapse-wrapperInner"
+        >
+          <div
+            aria-labelledby="panel2-header"
+            class="MuiAccordion-region"
+            id="panel2-content"
+            role="region"
+          >
+            <div
+              class="MuiAccordionDetails-root css-1lj39kh-MuiAccordionDetails-root"
+            >
+              <p
+                class="MuiTypography-root MuiTypography-body1 css-rizt0-MuiTypography-root"
+              >
+                $ 
+                900
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded Mui-expanded MuiAccordion-gutters css-1808mag-MuiPaper-root-MuiAccordion-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <h3
+      class="MuiAccordion-heading css-cy7rkm-MuiAccordion-heading"
+    >
+      <button
+        aria-controls="panel2-content"
+        aria-expanded="true"
+        class="MuiButtonBase-root MuiAccordionSummary-root Mui-expanded MuiAccordionSummary-gutters css-1f1pi2l-MuiButtonBase-root-MuiAccordionSummary-root"
+        id="panel2-header"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiAccordionSummary-content Mui-expanded MuiAccordionSummary-contentGutters css-yfrx4k-MuiAccordionSummary-content"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-body1 css-rizt0-MuiTypography-root"
+          >
+            Genres
+          </span>
+        </span>
+        <span
+          class="MuiAccordionSummary-expandIconWrapper Mui-expanded css-1wqf3nl-MuiAccordionSummary-expandIconWrapper"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+            data-testid="ExpandMoreIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+            />
+          </svg>
+        </span>
+      </button>
+    </h3>
+    <div
+      class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-entered css-qr6njo-MuiCollapse-root"
+      style="min-height: 0px;"
+    >
+      <div
+        class="MuiCollapse-wrapper MuiCollapse-vertical css-1x6hinx-MuiCollapse-wrapper"
+      >
+        <div
+          class="MuiCollapse-wrapperInner MuiCollapse-vertical css-1i4ywhz-MuiCollapse-wrapperInner"
+        >
+          <div
+            aria-labelledby="panel2-header"
+            class="MuiAccordion-region"
+            id="panel2-content"
+            role="region"
+          >
+            <div
+              class="MuiAccordionDetails-root css-1lj39kh-MuiAccordionDetails-root"
+            >
+              <div
+                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-1mfsd6e-MuiChip-root"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault MuiChip-avatar MuiChip-avatarMedium MuiChip-avatarColorDefault css-18k2bs-MuiAvatar-root"
+                >
+                   
+                  p
+                   
+                </div>
+                <span
+                  class="MuiChip-label MuiChip-labelMedium css-1dybbl5-MuiChip-label"
+                >
+                  pplugYH0TeHi
+                </span>
+              </div>
+              <div
+                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-1mfsd6e-MuiChip-root"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circular MuiAvatar-colorDefault MuiChip-avatar MuiChip-avatarMedium MuiChip-avatarColorDefault css-18k2bs-MuiAvatar-root"
+                >
+                   
+                  M
+                   
+                </div>
+                <span
+                  class="MuiChip-label MuiChip-labelMedium css-1dybbl5-MuiChip-label"
+                >
+                  MvxqvNwdGjCu
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded Mui-expanded MuiAccordion-gutters css-1808mag-MuiPaper-root-MuiAccordion-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <h3
+      class="MuiAccordion-heading css-cy7rkm-MuiAccordion-heading"
+    >
+      <button
+        aria-controls="panel2-content"
+        aria-expanded="true"
+        class="MuiButtonBase-root MuiAccordionSummary-root Mui-expanded MuiAccordionSummary-gutters css-1f1pi2l-MuiButtonBase-root-MuiAccordionSummary-root"
+        id="panel2-header"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiAccordionSummary-content Mui-expanded MuiAccordionSummary-contentGutters css-yfrx4k-MuiAccordionSummary-content"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-body1 css-rizt0-MuiTypography-root"
+          >
+            Production Companies
+          </span>
+        </span>
+        <span
+          class="MuiAccordionSummary-expandIconWrapper Mui-expanded css-1wqf3nl-MuiAccordionSummary-expandIconWrapper"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+            data-testid="ExpandMoreIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+            />
+          </svg>
+        </span>
+      </button>
+    </h3>
+    <div
+      class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-entered css-qr6njo-MuiCollapse-root"
+      style="min-height: 0px;"
+    >
+      <div
+        class="MuiCollapse-wrapper MuiCollapse-vertical css-1x6hinx-MuiCollapse-wrapper"
+      >
+        <div
+          class="MuiCollapse-wrapperInner MuiCollapse-vertical css-1i4ywhz-MuiCollapse-wrapperInner"
+        >
+          <div
+            aria-labelledby="panel2-header"
+            class="MuiAccordion-region"
+            id="panel2-content"
+            role="region"
+          >
+            <div
+              class="MuiAccordionDetails-root css-1lj39kh-MuiAccordionDetails-root"
+            >
+              <div
+                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-1mfsd6e-MuiChip-root"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circular MuiChip-avatar MuiChip-avatarMedium MuiChip-avatarColorDefault css-fmeqll-MuiAvatar-root"
+                >
+                  <img
+                    class="MuiAvatar-img css-1su80sj-MuiAvatar-img"
+                    src="FGg8vVqP4CB5"
+                  />
+                </div>
+                <span
+                  class="MuiChip-label MuiChip-labelMedium css-1dybbl5-MuiChip-label"
+                >
+                  yBUlYXgbiNxp
+                </span>
+              </div>
+              <div
+                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-1mfsd6e-MuiChip-root"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circular MuiChip-avatar MuiChip-avatarMedium MuiChip-avatarColorDefault css-fmeqll-MuiAvatar-root"
+                >
+                  <img
+                    class="MuiAvatar-img css-1su80sj-MuiAvatar-img"
+                    src="AszpwS6bDYHh"
+                  />
+                </div>
+                <span
+                  class="MuiChip-label MuiChip-labelMedium css-1dybbl5-MuiChip-label"
+                >
+                  BJOdECaRyB6h
+                </span>
+              </div>
+              <div
+                class="MuiChip-root MuiChip-filled MuiChip-sizeMedium MuiChip-colorDefault MuiChip-filledDefault css-1mfsd6e-MuiChip-root"
+              >
+                <div
+                  class="MuiAvatar-root MuiAvatar-circular MuiChip-avatar MuiChip-avatarMedium MuiChip-avatarColorDefault css-fmeqll-MuiAvatar-root"
+                >
+                  <img
+                    class="MuiAvatar-img css-1su80sj-MuiAvatar-img"
+                    src="SKGEwsyzAtvg"
+                  />
+                </div>
+                <span
+                  class="MuiChip-label MuiChip-labelMedium css-1dybbl5-MuiChip-label"
+                >
+                  r9mPFWhwnsk7
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded Mui-expanded MuiAccordion-gutters css-1808mag-MuiPaper-root-MuiAccordion-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <h3
+      class="MuiAccordion-heading css-cy7rkm-MuiAccordion-heading"
+    >
+      <button
+        aria-controls="panel2-content"
+        aria-expanded="true"
+        class="MuiButtonBase-root MuiAccordionSummary-root Mui-expanded MuiAccordionSummary-gutters css-1f1pi2l-MuiButtonBase-root-MuiAccordionSummary-root"
+        id="panel2-header"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiAccordionSummary-content Mui-expanded MuiAccordionSummary-contentGutters css-yfrx4k-MuiAccordionSummary-content"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-body1 css-rizt0-MuiTypography-root"
+          >
+            HomePage
+          </span>
+        </span>
+        <span
+          class="MuiAccordionSummary-expandIconWrapper Mui-expanded css-1wqf3nl-MuiAccordionSummary-expandIconWrapper"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+            data-testid="ExpandMoreIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+            />
+          </svg>
+        </span>
+      </button>
+    </h3>
+    <div
+      class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-entered css-qr6njo-MuiCollapse-root"
+      style="min-height: 0px;"
+    >
+      <div
+        class="MuiCollapse-wrapper MuiCollapse-vertical css-1x6hinx-MuiCollapse-wrapper"
+      >
+        <div
+          class="MuiCollapse-wrapperInner MuiCollapse-vertical css-1i4ywhz-MuiCollapse-wrapperInner"
+        >
+          <div
+            aria-labelledby="panel2-header"
+            class="MuiAccordion-region"
+            id="panel2-content"
+            role="region"
+          >
+            <div
+              class="MuiAccordionDetails-root css-1lj39kh-MuiAccordionDetails-root"
+            >
+              <a
+                href="m2Y9vMP3hQ98"
+                rel="noopener noreferrer"
+                style="display: flex; align-items: center; gap: 4px; text-decoration: none;"
+                target="_blank"
+              >
+                <svg
+                  aria-hidden="true"
+                  class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-120dh41-MuiSvgIcon-root"
+                  data-testid="LaunchIcon"
+                  focusable="false"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    d="M19 19H5V5h7V3H5c-1.11 0-2 .9-2 2v14c0 1.1.89 2 2 2h14c1.1 0 2-.9 2-2v-7h-2zM14 3v2h3.59l-9.83 9.83 1.41 1.41L19 6.41V10h2V3z"
+                  />
+                </svg>
+                <p
+                  class="MuiTypography-root MuiTypography-body1 css-rizt0-MuiTypography-root"
+                >
+                  m2Y9vMP3hQ98
+                </p>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiAccordion-root MuiAccordion-rounded Mui-expanded MuiAccordion-gutters css-1808mag-MuiPaper-root-MuiAccordion-root"
+    style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+  >
+    <h3
+      class="MuiAccordion-heading css-cy7rkm-MuiAccordion-heading"
+    >
+      <button
+        aria-controls="panel2-content"
+        aria-expanded="true"
+        class="MuiButtonBase-root MuiAccordionSummary-root Mui-expanded MuiAccordionSummary-gutters css-1f1pi2l-MuiButtonBase-root-MuiAccordionSummary-root"
+        id="panel2-header"
+        tabindex="0"
+        type="button"
+      >
+        <span
+          class="MuiAccordionSummary-content Mui-expanded MuiAccordionSummary-contentGutters css-yfrx4k-MuiAccordionSummary-content"
+        >
+          <span
+            class="MuiTypography-root MuiTypography-body1 css-rizt0-MuiTypography-root"
+          >
+            Rating
+          </span>
+        </span>
+        <span
+          class="MuiAccordionSummary-expandIconWrapper Mui-expanded css-1wqf3nl-MuiAccordionSummary-expandIconWrapper"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+            data-testid="ExpandMoreIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M16.59 8.59 12 13.17 7.41 8.59 6 10l6 6 6-6z"
+            />
+          </svg>
+        </span>
+      </button>
+    </h3>
+    <div
+      class="MuiCollapse-root MuiCollapse-vertical MuiCollapse-entered css-qr6njo-MuiCollapse-root"
+      style="min-height: 0px;"
+    >
+      <div
+        class="MuiCollapse-wrapper MuiCollapse-vertical css-1x6hinx-MuiCollapse-wrapper"
+      >
+        <div
+          class="MuiCollapse-wrapperInner MuiCollapse-vertical css-1i4ywhz-MuiCollapse-wrapperInner"
+        >
+          <div
+            aria-labelledby="panel2-header"
+            class="MuiAccordion-region"
+            id="panel2-content"
+            role="region"
+          >
+            <div
+              class="MuiAccordionDetails-root css-1lj39kh-MuiAccordionDetails-root"
+            >
+              <div
+                class="MuiStack-root css-kdc3n8-MuiStack-root"
+              >
+                <span
+                  aria-label="130 Stars"
+                  class="MuiRating-root MuiRating-sizeMedium Mui-readOnly css-i0l71t-MuiRating-root"
+                  role="img"
+                >
+                  <span
+                    class="MuiRating-decimal css-1czqjfa-MuiRating-decimal"
+                  >
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span>
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                  </span>
+                  <span
+                    class="MuiRating-decimal css-1czqjfa-MuiRating-decimal"
+                  >
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span>
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                  </span>
+                  <span
+                    class="MuiRating-decimal css-1czqjfa-MuiRating-decimal"
+                  >
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span>
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                  </span>
+                  <span
+                    class="MuiRating-decimal css-1czqjfa-MuiRating-decimal"
+                  >
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span>
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                  </span>
+                  <span
+                    class="MuiRating-decimal css-1czqjfa-MuiRating-decimal"
+                  >
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span>
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                  </span>
+                  <span
+                    class="MuiRating-decimal css-1czqjfa-MuiRating-decimal"
+                  >
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span>
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                  </span>
+                  <span
+                    class="MuiRating-decimal css-1czqjfa-MuiRating-decimal"
+                  >
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span>
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                  </span>
+                  <span
+                    class="MuiRating-decimal css-1czqjfa-MuiRating-decimal"
+                  >
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span>
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                  </span>
+                  <span
+                    class="MuiRating-decimal css-1czqjfa-MuiRating-decimal"
+                  >
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span>
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                  </span>
+                  <span
+                    class="MuiRating-decimal css-1czqjfa-MuiRating-decimal"
+                  >
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span
+                      style="width: 0%; overflow: hidden; position: absolute;"
+                    >
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                    <span>
+                      <span
+                        class="MuiRating-icon MuiRating-iconFilled css-1sagf1d-MuiRating-icon"
+                      >
+                        <svg
+                          aria-hidden="true"
+                          class="MuiSvgIcon-root MuiSvgIcon-fontSizeInherit css-1ckov0h-MuiSvgIcon-root"
+                          data-testid="StarIcon"
+                          focusable="false"
+                          viewBox="0 0 24 24"
+                        >
+                          <path
+                            d="M12 17.27L18.18 21l-1.64-7.03L22 9.24l-7.19-.61L12 2 9.19 8.63 2 9.24l5.46 4.73L5.82 21z"
+                          />
+                        </svg>
+                      </span>
+                    </span>
+                  </span>
+                </span>
+                <p
+                  class="MuiTypography-root MuiTypography-body2 css-7ctihp-MuiTypography-root"
+                >
+                  1.3e+2
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

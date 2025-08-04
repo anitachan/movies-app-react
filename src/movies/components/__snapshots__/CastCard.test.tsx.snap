@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CastCard CreditsCard matches snapshot 1`] = `
+<div>
+  <button
+    class="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary MuiButton-root MuiButton-text MuiButton-textPrimary MuiButton-sizeMedium MuiButton-textSizeMedium MuiButton-colorPrimary css-1uent87-MuiButtonBase-root-MuiButton-root"
+    tabindex="0"
+    type="button"
+  >
+    <div
+      class="MuiBox-root css-13c7vug"
+    >
+      <div
+        class="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation1 MuiCard-root css-1k4oiox-MuiPaper-root-MuiCard-root"
+        style="--Paper-shadow: 0px 2px 1px -1px rgba(0,0,0,0.2),0px 1px 1px 0px rgba(0,0,0,0.14),0px 1px 3px 0px rgba(0,0,0,0.12);"
+      >
+        <img
+          alt="3CpplugYH0Te"
+          class="MuiCardMedia-root MuiCardMedia-media MuiCardMedia-img css-11jcf76-MuiCardMedia-root"
+          src="https://image.tmdb.org/t/p/originalaGTqxm8FGpgY"
+        />
+      </div>
+      <p
+        class="MuiTypography-root MuiTypography-body2 MuiTypography-noWrap css-1ydkb93-MuiTypography-root"
+      >
+        3CpplugYH0Te
+      </p>
+      <span
+        class="MuiTypography-root MuiTypography-caption MuiTypography-noWrap css-fgvunj-MuiTypography-root"
+      >
+        Hi1CDBoab94W
+      </span>
+    </div>
+  </button>
+</div>
+`;

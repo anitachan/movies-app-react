@@ -1,7 +1,7 @@
 import { fireEvent, render, screen } from '@testing-library/react';
 import { MovieCard } from './MovieCard';
 import { Movie } from '../models/movies.model';
-import { create, fixtureOf } from 'ts-mock-autofixture-kit';
+import { create, fixtureOf, logRaw } from 'ts-mock-autofixture-kit';
 
 const mockUseNavigate = jest.fn();
 const movieMock = create<Movie>();
@@ -15,13 +15,7 @@ jest.mock(
 
 describe('MovieCard', () => {
   test('MovieCard matches snapshot', () => {
-    const movie = fixtureOf<Movie>()
-      .with('title', () => 'The Matrix')
-      .with('overview', () => 'Un hacker descubre la verdad…')
-      .with('backdrop_path', () => '/matrix.jpg')
-      .with('vote_average', () => 8.7)
-      .with('id', () => 42)
-      .create();
+    const movie = fixtureOf<Movie>({ seed: 42 }).create();
 
     const { container } = render(<MovieCard movie={movie} />);
     expect(container).toMatchSnapshot();
