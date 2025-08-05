@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ActorPage should render dashboard and show credits 1`] = `
+exports[`ActorPage should render actor and show credits 1`] = `
 <div>
   <main
     class="MuiBox-root css-vuvul"

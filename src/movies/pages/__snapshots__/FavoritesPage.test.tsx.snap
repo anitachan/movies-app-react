@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FavoritesPage should render Favorite Page 1`] = `
+<div>
+  <div>
+    Favorites
+  </div>
+</div>
+`;

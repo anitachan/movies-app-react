@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Breadcrumbs should create and contain the current route 1`] = `
+<div>
+  <nav
+    aria-label="breadcrumb"
+    class="MuiTypography-root MuiTypography-body1 MuiBreadcrumbs-root css-1d5226r-MuiTypography-root-MuiBreadcrumbs-root"
+  >
+    <ol
+      class="MuiBreadcrumbs-ol css-1uwp4ue-MuiBreadcrumbs-ol"
+    >
+      <li
+        class="MuiBreadcrumbs-li"
+      >
+        <div
+          class="MuiTypography-root MuiTypography-h6 MuiTypography-noWrap css-5lnhk4-MuiTypography-root"
+        >
+          <a
+            class="MuiTypography-root MuiTypography-inherit MuiLink-root MuiLink-underlineNone css-6b04s2-MuiTypography-root-MuiLink-root"
+          >
+            Movies
+          </a>
+        </div>
+      </li>
+      <li
+        aria-hidden="true"
+        class="MuiBreadcrumbs-separator css-jhr02i-MuiBreadcrumbs-separator"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-120dh41-MuiSvgIcon-root"
+          data-testid="NavigateNextIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+          />
+        </svg>
+      </li>
+      <li
+        class="MuiBreadcrumbs-li"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-17ymgc2-MuiTypography-root"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-120dh41-MuiSvgIcon-root"
+            data-testid="HomeIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"
+            />
+          </svg>
+          foo
+        </p>
+      </li>
+      <li
+        aria-hidden="true"
+        class="MuiBreadcrumbs-separator css-jhr02i-MuiBreadcrumbs-separator"
+      >
+        <svg
+          aria-hidden="true"
+          class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-120dh41-MuiSvgIcon-root"
+          data-testid="NavigateNextIcon"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+          />
+        </svg>
+      </li>
+      <li
+        class="MuiBreadcrumbs-li"
+      >
+        <p
+          class="MuiTypography-root MuiTypography-body1 css-17ymgc2-MuiTypography-root"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeSmall css-120dh41-MuiSvgIcon-root"
+            data-testid="HomeIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"
+            />
+          </svg>
+          bar
+        </p>
+      </li>
+    </ol>
+  </nav>
+</div>
+`;

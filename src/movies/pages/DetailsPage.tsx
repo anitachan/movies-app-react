@@ -48,7 +48,11 @@ export const DetailsPage = () => {
               zIndex: 2,
             }}
           >
-            {isFavorite ? <FavoriteIcon color="error" /> : <FavoriteBorderIcon />}
+            {isFavorite ? (
+              <FavoriteIcon data-testid="favorite-icon" color="error" />
+            ) : (
+              <FavoriteBorderIcon data-testid="favorite-border-icon" />
+            )}
           </IconButton>
 
           <Box

@@ -44,7 +44,7 @@ describe('ActorPage', () => {
     jest.clearAllMocks();
   });
 
-  test('should render dashboard and show credits', () => {
+  test('should render actor and show credits', () => {
     const { container } = render(<ActorPage />);
 
     expect(container).toMatchSnapshot();
