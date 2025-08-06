@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Sidebar component should use ChevronRightIcon when theme.direction is rtl 1`] = `
+<div>
+  <div
+    class="MuiDrawer-root MuiDrawer-anchorLeft MuiDrawer-docked css-1hg0i2n-MuiDrawer-docked"
+  >
+    <div
+      class="MuiPaper-root MuiPaper-elevation MuiPaper-elevation0 MuiDrawer-paper MuiDrawer-paperAnchorLeft MuiDrawer-paperAnchorDockedLeft css-1lwhjos-MuiPaper-root-MuiDrawer-paper"
+      style="--Paper-shadow: none;"
+    >
+      <div
+        class="css-1r9jet7"
+      >
+        <button
+          class="MuiButtonBase-root MuiIconButton-root MuiIconButton-sizeMedium css-53g0n7-MuiButtonBase-root-MuiIconButton-root"
+          tabindex="0"
+          type="button"
+        >
+          <svg
+            aria-hidden="true"
+            class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+            data-testid="ChevronRightIcon"
+            focusable="false"
+            viewBox="0 0 24 24"
+          >
+            <path
+              d="M10 6 8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"
+            />
+          </svg>
+        </button>
+      </div>
+      <hr
+        class="MuiDivider-root MuiDivider-fullWidth css-1jpc804-MuiDivider-root"
+      />
+      <ul
+        class="MuiList-root MuiList-padding css-b7dj7n-MuiList-root"
+      >
+        <li
+          class="MuiListItem-root MuiListItem-gutters css-19f6boz-MuiListItem-root"
+        >
+          <a
+            href="/home"
+          >
+            <div
+              class="MuiListItemIcon-root css-cokf1l-MuiListItemIcon-root"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                data-testid="HomeIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M10 20v-6h4v6h5v-8h3L12 3 2 12h3v8z"
+                />
+              </svg>
+            </div>
+            <div
+              class="MuiListItemText-root css-cfq8qh-MuiListItemText-root"
+            >
+              <span
+                class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rizt0-MuiTypography-root"
+              >
+                Home
+              </span>
+            </div>
+          </a>
+        </li>
+        <li
+          class="MuiListItem-root MuiListItem-gutters css-19f6boz-MuiListItem-root"
+        >
+          <a
+            href="/favorites"
+          >
+            <div
+              class="MuiListItemIcon-root css-cokf1l-MuiListItemIcon-root"
+            >
+              <svg
+                aria-hidden="true"
+                class="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-1umw9bq-MuiSvgIcon-root"
+                data-testid="FavoriteIcon"
+                focusable="false"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="m12 21.35-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54z"
+                />
+              </svg>
+            </div>
+            <div
+              class="MuiListItemText-root css-cfq8qh-MuiListItemText-root"
+            >
+              <span
+                class="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-rizt0-MuiTypography-root"
+              >
+                Favorites
+              </span>
+            </div>
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</div>
+`;
