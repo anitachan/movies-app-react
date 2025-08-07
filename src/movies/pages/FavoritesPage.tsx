@@ -1,5 +1,8 @@
-import React from 'react';
+import { Dashboard } from '../components/Dashboard';
+import { useFavorites } from '../hooks/useFavorites';
 
 export const FavoritesPage = () => {
-	return <div>Favorites</div>;
+  const { favorites } = useFavorites();
+
+  return <Dashboard movies={favorites!} />;
 };

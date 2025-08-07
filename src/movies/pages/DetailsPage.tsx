@@ -5,13 +5,13 @@ import { Accordion } from '../components/Accordion';
 import { CastCard } from '../components/CastCard';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
-import { useFavorites } from '../hooks/useFavorites';
+import { useFavorite } from '../hooks/useFavorite';
 
 export const DetailsPage = () => {
   const { id } = useParams();
   const { movie, cast } = useMovie(id!);
   const url = process.env.REACT_APP_IMAGES_URL;
-  const { isFavorite, toggleFavorite } = useFavorites(movie!);
+  const { isFavorite, toggleFavorite } = useFavorite(movie!);
 
   return (
     <Box

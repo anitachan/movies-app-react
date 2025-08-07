@@ -1,9 +1,10 @@
 import { Box, Button, Rating, Stack, Typography } from '@mui/material';
 import { Movie } from '../models/movies.model';
 import { useNavigate } from 'react-router-dom';
+import { MovieDetail } from '../models/movieDetail';
 
 interface Props {
-  movie: Movie;
+  movie: Movie | MovieDetail;
 }
 
 export const MovieCard = ({ movie }: Props) => {
@@ -44,7 +45,17 @@ export const MovieCard = ({ movie }: Props) => {
         }}
       >
         <Box>
-          <Typography variant="subtitle1" fontWeight="bold">
+          <Typography
+            sx={{
+              display: '-webkit-box',
+              WebkitLineClamp: 1,
+              WebkitBoxOrient: 'vertical',
+              overflow: 'hidden',
+              textOverflow: 'ellipsis',
+            }}
+            variant="subtitle1"
+            fontWeight="bold"
+          >
             {title}
           </Typography>
           <Typography

@@ -3,14 +3,15 @@ import { useInfiniteScroll } from '../hooks/useInfiniteScroll';
 import { MovieCard } from './MovieCard';
 import { MovieCardSkeleton } from './MovieCardSkeleton';
 import { Movie } from '../models/movies.model';
+import { MovieDetail } from '../models/movieDetail';
 
 interface Props {
-  movies: Movie[];
-  loadMore: () => void;
+  movies: Movie[] | MovieDetail[];
+  loadMore?: () => void;
 }
 
 export const Dashboard = ({ movies, loadMore }: Props) => {
-  const loaderRef = useInfiniteScroll(loadMore);
+  const loaderRef = useInfiniteScroll(loadMore!);
 
   return (
     <>

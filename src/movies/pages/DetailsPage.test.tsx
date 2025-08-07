@@ -4,16 +4,16 @@ import { useMovie } from '../hooks/useMovie';
 import { createList, fixtureOf } from 'ts-mock-autofixture-kit';
 import { MovieDetail } from '../models/movieDetail';
 import { Cast } from '../models/cast.model';
-import { useFavorites } from '../hooks/useFavorites';
+import { useFavorite } from '../hooks/useFavorite';
 
 jest.mock('../hooks/useMovie', () => ({
   __esModule: true,
   useMovie: jest.fn(),
 }));
 
-jest.mock('../hooks/useFavorites', () => ({
+jest.mock('../hooks/useFavorite', () => ({
   __esModule: true,
-  useFavorites: jest.fn(),
+  useFavorite: jest.fn(),
 }));
 
 const mockUseNavigate = jest.fn();
@@ -28,7 +28,7 @@ jest.mock(
 
 describe('DetailsPage', () => {
   const useActorMock = useMovie as jest.MockedFunction<typeof useMovie>;
-  const useFavoritesMock = useFavorites as jest.MockedFunction<typeof useFavorites>;
+  const useFavoriteMock = useFavorite as jest.MockedFunction<typeof useFavorite>;
   const mockActor = fixtureOf<MovieDetail>({ seed: 42 }).create();
   const mockCredits = createList<Cast>(3, { seed: 100 });
 
@@ -40,7 +40,7 @@ describe('DetailsPage', () => {
       loading: false,
     });
 
-    useFavoritesMock.mockReturnValue({
+    useFavoriteMock.mockReturnValue({
       isFavorite: false,
       toggleFavorite: jest.fn(),
     });
@@ -57,7 +57,7 @@ describe('DetailsPage', () => {
   });
 
   test('should render details page and favorite have to be filled icon', () => {
-    useFavoritesMock.mockReturnValueOnce({ isFavorite: true, toggleFavorite: jest.fn() });
+    useFavoriteMock.mockReturnValueOnce({ isFavorite: true, toggleFavorite: jest.fn() });
     const { container } = render(<DetailsPage />);
 
     expect(container).toMatchSnapshot();
