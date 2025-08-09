@@ -1,9 +1,9 @@
-import { render, act } from '@testing-library/react';
-import { useInfiniteScroll } from './useInfiniteScroll';
+import { act, render } from '@testing-library/react';
 import {
-  setupMockIntersectionObserver,
   getLatestObserverInstance,
+  setupMockIntersectionObserver,
 } from '../../../test-utils/interceptor.test-helper';
+import { useInfiniteScroll } from './useInfiniteScroll';
 
 setupMockIntersectionObserver();
 
@@ -48,7 +48,7 @@ describe('useInfiniteScroll', () => {
   test('should not created an observer if does not exists loaderRef', () => {
     render(<div data-testid="dummy" />);
     expect(() => getLatestObserverInstance()).toThrow(
-      'No IntersectionObserver instance was created',
+      'No IntersectionObserver instance was created'
     );
   });
 
@@ -57,7 +57,7 @@ describe('useInfiniteScroll', () => {
     render(<NoLoaderComponent onIntersect={callback} />);
 
     expect(() => getLatestObserverInstance()).toThrow(
-      'No IntersectionObserver instance was created',
+      'No IntersectionObserver instance was created'
     );
   });
 });

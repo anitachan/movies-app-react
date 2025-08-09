@@ -1,6 +1,6 @@
+import { createTheme, ThemeProvider } from '@mui/material';
 import { fireEvent, render, screen } from '@testing-library/react';
 import { Layout } from './Layout';
-import { createTheme, ThemeProvider } from '@mui/material';
 
 jest.mock('./Toolbar', () => ({
   Toolbar: () => <div data-testid="mock-toolbar">mock-toolbar</div>,
@@ -21,7 +21,7 @@ describe('Layout component', () => {
     const { container, getByTestId } = render(
       <ThemeProvider theme={theme}>
         <Layout />
-      </ThemeProvider>,
+      </ThemeProvider>
     );
     expect(container).toMatchSnapshot();
 
@@ -45,7 +45,7 @@ describe('Layout component', () => {
     render(
       <ThemeProvider theme={theme}>
         <Layout ToolbarComponent={ToolbarMock} SidebarComponent={SidebarMock} />
-      </ThemeProvider>,
+      </ThemeProvider>
     );
 
     const main = document.querySelector('main')!;

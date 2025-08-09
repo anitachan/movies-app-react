@@ -1,9 +1,9 @@
-import { renderHook, waitFor } from "@testing-library/react";
-import { create } from "ts-mock-autofixture-kit";
-import { Actor } from "../models/actor.model";
-import { ActorCast } from "../models/actorCast.model";
-import { getActor, getActorCredits } from "../services/tmdbApi";
-import { useActor } from "./useActor";
+import { renderHook, waitFor } from '@testing-library/react';
+import { create } from 'ts-mock-autofixture-kit';
+import { Actor } from '../models/actor.model';
+import { ActorCast } from '../models/actorCast.model';
+import { getActor, getActorCredits } from '../services/tmdbApi';
+import { useActor } from './useActor';
 
 jest.mock('../services/tmdbApi', () => ({
   getActor: jest.fn(),
@@ -11,7 +11,7 @@ jest.mock('../services/tmdbApi', () => ({
 }));
 
 describe('useActor', () => {
-  const id = create<string>()
+  const id = create<string>();
   const mockActor = create<Actor>();
   const mockActorCast = create<ActorCast[]>();
 
@@ -36,35 +36,34 @@ describe('useActor', () => {
       expect(loading).toEqual(false);
       expect(getActor).toHaveBeenCalledWith(id);
       expect(getActorCredits).toHaveBeenCalledWith(id);
-    })
+    });
   });
 
-
   test('should return movie as undefined and error when service response an error', async () => {
-    (getActor as jest.Mock).mockRejectedValueOnce(new Error("Error"));
+    (getActor as jest.Mock).mockRejectedValueOnce(new Error('Error'));
 
     const { result } = renderHook(() => useActor(id));
     await waitFor(() => {
       const { actor, credits, loading, error } = result.current;
-      expect(actor).toEqual(undefined)
-      expect(credits).toEqual(undefined)
-      expect(error).toEqual('Error')
-      expect(loading).toBe(false)
+      expect(actor).toEqual(undefined);
+      expect(credits).toEqual(undefined);
+      expect(error).toEqual('Error');
+      expect(loading).toBe(false);
       expect(getActor).toHaveBeenCalledWith(id);
       expect(getActorCredits).toHaveBeenCalledWith(id);
     });
   });
 
   test('should return movie as undefined and error when service response an error', async () => {
-    (getActorCredits as jest.Mock).mockRejectedValueOnce(new Error("Error"));
+    (getActorCredits as jest.Mock).mockRejectedValueOnce(new Error('Error'));
 
     const { result } = renderHook(() => useActor(id));
     await waitFor(() => {
       const { actor, credits, loading, error } = result.current;
-      expect(actor).toEqual(undefined)
-      expect(credits).toEqual(undefined)
-      expect(error).toEqual('Error')
-      expect(loading).toBe(false)
+      expect(actor).toEqual(undefined);
+      expect(credits).toEqual(undefined);
+      expect(error).toEqual('Error');
+      expect(loading).toBe(false);
       expect(getActor).toHaveBeenCalledWith(id);
       expect(getActorCredits).toHaveBeenCalledWith(id);
     });
@@ -76,14 +75,12 @@ describe('useActor', () => {
     const { result } = renderHook(() => useActor(id));
     await waitFor(() => {
       const { actor, credits, loading, error } = result.current;
-      expect(actor).toEqual(undefined)
-      expect(credits).toEqual(undefined)
-      expect(error).toEqual('Error loading actor')
-      expect(loading).toBe(false)
+      expect(actor).toEqual(undefined);
+      expect(credits).toEqual(undefined);
+      expect(error).toEqual('Error loading actor');
+      expect(loading).toBe(false);
       expect(getActor).toHaveBeenCalledWith(id);
       expect(getActorCredits).toHaveBeenCalledWith(id);
     });
   });
-
-
 });

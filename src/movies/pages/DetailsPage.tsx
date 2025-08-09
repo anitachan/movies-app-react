@@ -1,11 +1,11 @@
-import { useParams } from 'react-router-dom';
-import { Box, IconButton, Typography } from '@mui/material';
-import { useMovie } from '../hooks/useMovie';
-import { Accordion } from '../components/Accordion';
-import { CastCard } from '../components/CastCard';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
+import { Box, IconButton, Typography } from '@mui/material';
+import { useParams } from 'react-router-dom';
+import { Accordion } from '../components/Accordion';
+import { CastCard } from '../components/CastCard';
 import { useFavorite } from '../hooks/useFavorite';
+import { useMovie } from '../hooks/useMovie';
 
 export const DetailsPage = () => {
   const { id } = useParams();

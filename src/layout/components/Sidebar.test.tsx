@@ -1,5 +1,5 @@
-import { render, screen, fireEvent } from '@testing-library/react';
 import { createTheme, ThemeProvider } from '@mui/material/styles';
+import { fireEvent, render, screen } from '@testing-library/react';
 import { Sidebar } from './Sidebar';
 
 jest.mock(
@@ -7,7 +7,7 @@ jest.mock(
   () => ({
     Link: ({ to, children }: any) => <a href={to}>{children}</a>,
   }),
-  { virtual: true },
+  { virtual: true }
 );
 
 describe('Sidebar component', () => {
@@ -22,7 +22,7 @@ describe('Sidebar component', () => {
           drawerWidth={props.drawerWidth ?? drawerWidth}
           handleDrawerClose={props.handleDrawerClose ?? jest.fn()}
         />
-      </ThemeProvider>,
+      </ThemeProvider>
     );
 
   test('should show home and favorites and its routes', () => {
@@ -61,7 +61,7 @@ describe('Sidebar component', () => {
     const { container } = render(
       <ThemeProvider theme={rtlTheme}>
         <Sidebar open={true} drawerWidth={240} handleDrawerClose={() => {}} />
-      </ThemeProvider>,
+      </ThemeProvider>
     );
 
     expect(container).toMatchSnapshot();

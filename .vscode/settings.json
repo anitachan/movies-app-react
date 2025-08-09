@@ -1,14 +1,22 @@
 {
-	"[typescript]": {
-		"editor.codeActionsOnSave": {
-			"source.organizeImports": "explicit",
-			"source.removeUnusedImports": "explicit"
-		}
-	},
-	"editor.formatOnSave": true,
-	"jest.runMode": {
-		"coverage": true,
-		"runAllTestsOnStartup": false,
-		"type": "on-demand"
-	}
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll": "never",
+    "source.fixAll.eslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "prettier.requireConfig": true,
+  "jest.runMode": {
+    "coverage": true,
+    "runAllTestsOnStartup": false,
+    "type": "on-demand"
+  }
 }

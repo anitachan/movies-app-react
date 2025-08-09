@@ -1,9 +1,9 @@
 /* istanbul ignore file */
 import { Navigate, Route, Routes } from 'react-router-dom';
-import { HomePage } from '../movies/pages/HomePage';
-import { FavoritesPage } from '../movies/pages/FavoritesPage';
-import { DetailsPage } from '../movies/pages/DetailsPage';
 import { ActorPage } from '../movies/pages/ActorPage';
+import { DetailsPage } from '../movies/pages/DetailsPage';
+import { FavoritesPage } from '../movies/pages/FavoritesPage';
+import { HomePage } from '../movies/pages/HomePage';
 
 export const AppRouter = () => {
   return (

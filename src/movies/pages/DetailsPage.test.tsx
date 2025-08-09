@@ -1,10 +1,10 @@
 import { render, screen } from '@testing-library/react';
-import { DetailsPage } from './DetailsPage';
-import { useMovie } from '../hooks/useMovie';
 import { createList, fixtureOf } from 'ts-mock-autofixture-kit';
-import { MovieDetail } from '../models/movieDetail';
-import { Cast } from '../models/cast.model';
 import { useFavorite } from '../hooks/useFavorite';
+import { useMovie } from '../hooks/useMovie';
+import { Cast } from '../models/cast.model';
+import { MovieDetail } from '../models/movieDetail';
+import { DetailsPage } from './DetailsPage';
 
 jest.mock('../hooks/useMovie', () => ({
   __esModule: true,
@@ -23,7 +23,7 @@ jest.mock(
     useParams: () => ({ id: 'some-movie-id' }),
     useNavigate: () => mockUseNavigate,
   }),
-  { virtual: true },
+  { virtual: true }
 );
 
 describe('DetailsPage', () => {

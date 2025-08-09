@@ -1,16 +1,16 @@
+import LanguageIcon from '@mui/icons-material/Language';
+import MenuIcon from '@mui/icons-material/Menu';
+import SearchIcon from '@mui/icons-material/Search';
 import {
-  AppBar as MuiAppBar,
   Box,
   IconButton,
+  AppBar as MuiAppBar,
   Toolbar as MuiToolbar,
   Typography,
   styled,
 } from '@mui/material';
-import MenuIcon from '@mui/icons-material/Menu';
-import LanguageIcon from '@mui/icons-material/Language';
-import SearchIcon from '@mui/icons-material/Search';
-import { ThemeToggleButton } from './ThemeToggleButton';
 import { Breadcrumbs } from './Breadcrumbs';
+import { ThemeToggleButton } from './ThemeToggleButton';
 
 interface Props {
   open: boolean;

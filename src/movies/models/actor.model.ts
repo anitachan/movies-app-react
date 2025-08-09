@@ -1,4 +1,3 @@
-
 export interface Actor {
   adult: boolean;
   also_known_as: string[];

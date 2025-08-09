@@ -1,5 +1,5 @@
-import { useEffect, useState } from "react";
-import { MovieDetail } from "../models/movieDetail";
+import { useEffect, useState } from 'react';
+import { MovieDetail } from '../models/movieDetail';
 
 export const useFavorites = () => {
   const [favorites, setFavorites] = useState<MovieDetail[]>([]);
@@ -14,4 +14,4 @@ export const useFavorites = () => {
   }, []);
 
   return { favorites };
-}
+};

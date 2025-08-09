@@ -1,7 +1,7 @@
-import { fireEvent, render, screen } from '@testing-library/react';
-import { ThemeToggleButton } from './ThemeToggleButton';
 import { createTheme, ThemeProvider } from '@mui/material';
+import { fireEvent, render, screen } from '@testing-library/react';
 import { useColorMode } from '../context/ThemeContext';
+import { ThemeToggleButton } from './ThemeToggleButton';
 
 jest.mock('../context/ThemeContext', () => ({
   useColorMode: jest.fn(),
@@ -31,7 +31,7 @@ describe('ThemeToggleButton', () => {
     render(
       <ThemeProvider theme={darkTheme}>
         <ThemeToggleButton />
-      </ThemeProvider>,
+      </ThemeProvider>
     );
 
     const sunIcon = screen.getByTestId('brightness7');
@@ -46,7 +46,7 @@ describe('ThemeToggleButton', () => {
     render(
       <ThemeProvider theme={darkTheme}>
         <ThemeToggleButton />
-      </ThemeProvider>,
+      </ThemeProvider>
     );
 
     const sunIcon = screen.getByTestId('brightness4');

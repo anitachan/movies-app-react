@@ -25,7 +25,8 @@ export class MockIntersectionObserver {
 
 export function setupMockIntersectionObserver() {
   beforeAll(() => {
-    global.IntersectionObserver = MockIntersectionObserver as unknown as typeof IntersectionObserver;
+    global.IntersectionObserver =
+      MockIntersectionObserver as unknown as typeof IntersectionObserver;
   });
 
   beforeEach(() => {

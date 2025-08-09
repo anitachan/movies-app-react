@@ -12,7 +12,6 @@ jest.mock('../services/tmdbApi', () => ({
 }));
 
 describe('UseMovies', () => {
-
   beforeEach(() => {
     (getMovies as jest.Mock).mockResolvedValue(mockMovies.results);
   });
@@ -29,7 +28,7 @@ describe('UseMovies', () => {
       expect(error).toBeNull();
       expect(loading).toBe(true);
       expect(getMovies).toHaveBeenCalledWith(1);
-    })
+    });
   });
 
   test('should return movies', async () => {
@@ -37,29 +36,29 @@ describe('UseMovies', () => {
     await waitFor(() => {
       const { movies, loading, error, loadMore } = result.current;
       expect(movies).toEqual(mockMovies.results);
-      expect(error).toBeNull()
-      expect(loadMore).toEqual(expect.any(Function))
-      expect(loading).toBe(false)
+      expect(error).toBeNull();
+      expect(loadMore).toEqual(expect.any(Function));
+      expect(loading).toBe(false);
       expect(getMovies).toHaveBeenCalledWith(1);
     });
   });
 
   test('should return empty array and error when service response an error', async () => {
-    (getMovies as jest.Mock).mockRejectedValueOnce(new Error("Error"));
+    (getMovies as jest.Mock).mockRejectedValueOnce(new Error('Error'));
 
     const { result } = renderHook(() => useMovies());
     await waitFor(() => {
       const { movies, loading, error, loadMore } = result.current;
-      expect(movies).toEqual([])
-      expect(error).toEqual('Loading movies error')
-      expect(loadMore).toEqual(expect.any(Function))
-      expect(loading).toBe(false)
+      expect(movies).toEqual([]);
+      expect(error).toEqual('Loading movies error');
+      expect(loadMore).toEqual(expect.any(Function));
+      expect(loading).toBe(false);
       expect(getMovies).toHaveBeenCalledWith(1);
-    })
+    });
   });
 
   test('should return when is loading in true', async () => {
-    const neverEndingPromise = new Promise(() => { });
+    const neverEndingPromise = new Promise(() => {});
     (getMovies as jest.Mock).mockReturnValueOnce(neverEndingPromise);
     const { result } = renderHook(() => useMovies());
 
@@ -89,13 +88,9 @@ describe('UseMovies', () => {
       expect(result.current.loading).toBe(false);
     });
 
-    const wasCalledWithPage2 = mockedGetMovies.mock.calls.some(
-      ([pageArg]) => pageArg === 2
-    );
+    const wasCalledWithPage2 = mockedGetMovies.mock.calls.some(([pageArg]) => pageArg === 2);
     expect(wasCalledWithPage2).toBe(true);
     expect(getMovies).toHaveBeenCalledWith(1);
     expect(getMovies).toHaveBeenCalledWith(2);
   });
-
-
 });

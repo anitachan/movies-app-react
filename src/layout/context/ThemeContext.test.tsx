@@ -1,4 +1,4 @@
-import { render, screen, fireEvent } from '@testing-library/react';
+import { fireEvent, render, screen } from '@testing-library/react';
 import { ThemeContext, useColorMode } from './ThemeContext';
 
 const TestConsumer: React.FC = () => {
@@ -30,7 +30,7 @@ describe('ThemeContext & useColorMode', () => {
     render(
       <ThemeContext>
         <TestConsumer />
-      </ThemeContext>,
+      </ThemeContext>
     );
 
     const modeText = screen.getByTestId('mode-text');
@@ -49,7 +49,7 @@ describe('ThemeContext & useColorMode', () => {
     render(
       <ThemeContext>
         <div data-testid="child">Hello Context</div>
-      </ThemeContext>,
+      </ThemeContext>
     );
     expect(screen.getByTestId('child')).toHaveTextContent('Hello Context');
   });

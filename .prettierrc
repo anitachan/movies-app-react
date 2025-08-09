@@ -1,6 +1,15 @@
 {
-  "printWidth": 100,
-  "singleQuote": true,
   "semi": true,
-  "editorconfig": false
+  "singleQuote": true,
+  "printWidth": 100,
+  "trailingComma": "es5",
+  "overrides": [
+    {
+      "files": "*.tsx, *.ts",
+      "options": {
+        "singleQuote": true,
+        "jsxSingleQuote": true
+      }
+    }
+  ]
 }

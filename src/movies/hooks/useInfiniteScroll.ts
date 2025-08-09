@@ -1,4 +1,4 @@
-import { useEffect, useRef } from "react";
+import { useEffect, useRef } from 'react';
 
 export const useInfiniteScroll = (callback: () => void) => {
   const observerRef = useRef<IntersectionObserver | null>(null);
@@ -7,11 +7,14 @@ export const useInfiniteScroll = (callback: () => void) => {
   useEffect(() => {
     if (!loaderRef.current) return;
 
-    observerRef.current = new IntersectionObserver(([entry]) => {
-      if (entry.isIntersecting) {
-        callback();
-      }
-    }, { threshold: 0.5 });
+    observerRef.current = new IntersectionObserver(
+      ([entry]) => {
+        if (entry.isIntersecting) {
+          callback();
+        }
+      },
+      { threshold: 0.5 }
+    );
 
     observerRef.current.observe(loaderRef.current);
 

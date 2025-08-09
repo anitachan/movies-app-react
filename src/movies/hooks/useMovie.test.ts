@@ -1,9 +1,9 @@
-import { renderHook, waitFor } from "@testing-library/react";
-import { create } from "ts-mock-autofixture-kit";
-import { Cast } from "../models/cast.model";
-import { MovieDetail } from "../models/movieDetail";
-import { getCast, getMovie } from "../services/tmdbApi";
-import { useMovie } from "./useMovie";
+import { renderHook, waitFor } from '@testing-library/react';
+import { create } from 'ts-mock-autofixture-kit';
+import { Cast } from '../models/cast.model';
+import { MovieDetail } from '../models/movieDetail';
+import { getCast, getMovie } from '../services/tmdbApi';
+import { useMovie } from './useMovie';
 
 jest.mock('../services/tmdbApi', () => ({
   getMovie: jest.fn(),
@@ -25,7 +25,6 @@ describe('useMovie', () => {
   });
 
   test('should return movies', async () => {
-
     const { result } = renderHook(() => useMovie(id));
     await waitFor(() => {
       const { movie, cast, loading, error } = result.current;
@@ -39,30 +38,30 @@ describe('useMovie', () => {
   });
 
   test('should return movie and casr as undefined and error when service response an error', async () => {
-    (getMovie as jest.Mock).mockRejectedValueOnce(new Error("Error"));
+    (getMovie as jest.Mock).mockRejectedValueOnce(new Error('Error'));
 
     const { result } = renderHook(() => useMovie(id));
     await waitFor(() => {
       const { movie, cast, loading, error } = result.current;
-      expect(movie).toEqual(undefined)
-      expect(cast).toEqual(undefined)
-      expect(error).toEqual('Error')
-      expect(loading).toBe(false)
+      expect(movie).toEqual(undefined);
+      expect(cast).toEqual(undefined);
+      expect(error).toEqual('Error');
+      expect(loading).toBe(false);
       expect(getMovie).toHaveBeenCalledWith(id);
       expect(getCast).toHaveBeenCalledWith(id);
     });
   });
 
   test('should return movie as undefined and error when service response an error', async () => {
-    (getCast as jest.Mock).mockRejectedValueOnce(new Error("Error"));
+    (getCast as jest.Mock).mockRejectedValueOnce(new Error('Error'));
 
     const { result } = renderHook(() => useMovie(id));
     await waitFor(() => {
       const { movie, cast, loading, error } = result.current;
-      expect(movie).toEqual(undefined)
-      expect(cast).toEqual(undefined)
-      expect(error).toEqual('Error')
-      expect(loading).toBe(false)
+      expect(movie).toEqual(undefined);
+      expect(cast).toEqual(undefined);
+      expect(error).toEqual('Error');
+      expect(loading).toBe(false);
       expect(getMovie).toHaveBeenCalledWith(id);
       expect(getCast).toHaveBeenCalledWith(id);
     });
@@ -74,10 +73,10 @@ describe('useMovie', () => {
 
     await waitFor(() => {
       const { movie, cast, loading, error } = result.current;
-      expect(movie).toEqual(undefined)
-      expect(cast).toEqual(undefined)
-      expect(error).toEqual('Loading movie error')
-      expect(loading).toBe(false)
+      expect(movie).toEqual(undefined);
+      expect(cast).toEqual(undefined);
+      expect(error).toEqual('Loading movie error');
+      expect(loading).toBe(false);
       expect(getMovie).toHaveBeenCalledWith(id);
       expect(getCast).toHaveBeenCalledWith(id);
     });

@@ -1,9 +1,9 @@
-import React, { useState } from 'react';
 import { Box } from '@mui/material';
 import { styled } from '@mui/material/styles';
+import React, { useState } from 'react';
+import { AppRouter } from '../../router/AppRouter';
 import { Sidebar } from './Sidebar';
 import { Toolbar } from './Toolbar';
-import { AppRouter } from '../../router/AppRouter';
 
 export interface LayoutProps {
   ToolbarComponent?: React.ComponentType<{

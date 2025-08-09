@@ -14,7 +14,7 @@ jest.mock(
   () => ({
     useLocation: () => mockLocation,
   }),
-  { virtual: true },
+  { virtual: true }
 );
 
 describe('Breadcrumbs', () => {

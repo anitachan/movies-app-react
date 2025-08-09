@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from 'react';
 import { MovieDetail } from '../models/movieDetail';
 
 export const useFavorite = (movie: MovieDetail) => {
@@ -8,24 +8,25 @@ export const useFavorite = (movie: MovieDetail) => {
     try {
       const getLocalFavorites = localStorage.getItem('favorites');
       const storedFavorites: MovieDetail[] = getLocalFavorites ? JSON.parse(getLocalFavorites) : [];
-      setIsFavorite(storedFavorites.some(favorite => favorite.id === movie.id))
+      setIsFavorite(storedFavorites.some((favorite) => favorite.id === movie.id));
     } catch (error) {
       setIsFavorite(false);
     }
-
-  }, [movie?.id])
+  }, [movie?.id]);
 
   const toggleFavorite = useCallback(() => {
     try {
       const getLocalFavorites = localStorage.getItem('favorites');
       const storedFavorites: MovieDetail[] = getLocalFavorites ? JSON.parse(getLocalFavorites) : [];
-      const next = isFavorite ? storedFavorites.filter(m => m.id !== movie.id) : [...storedFavorites, movie];
+      const next = isFavorite
+        ? storedFavorites.filter((m) => m.id !== movie.id)
+        : [...storedFavorites, movie];
       localStorage.setItem('favorites', JSON.stringify(next));
       setIsFavorite(!isFavorite);
     } catch {
-      console.error('Error storage')
+      console.error('Error storage');
     }
   }, [isFavorite, movie]);
 
-  return { isFavorite, toggleFavorite }
-}
+  return { isFavorite, toggleFavorite };
+};

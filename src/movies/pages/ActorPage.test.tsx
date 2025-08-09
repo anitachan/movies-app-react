@@ -1,10 +1,10 @@
 import { fireEvent, render, screen } from '@testing-library/react';
-import { fixtureOf, createList } from 'ts-mock-autofixture-kit';
+import { createList, fixtureOf } from 'ts-mock-autofixture-kit';
+import noUser from '../../assets/no-user.png';
+import { useActor } from '../hooks/useActor';
 import { Actor } from '../models/actor.model';
 import { ActorCast } from '../models/actorCast.model';
 import { ActorPage } from './ActorPage';
-import { useActor } from '../hooks/useActor';
-import noUser from '../../assets/no-user.png';
 
 process.env.REACT_APP_IMAGES_URL ||= 'https://example.com/';
 
@@ -25,7 +25,7 @@ jest.mock(
   () => ({
     useParams: () => ({ id: 'some-actor-id' }),
   }),
-  { virtual: true },
+  { virtual: true }
 );
 
 describe('ActorPage', () => {

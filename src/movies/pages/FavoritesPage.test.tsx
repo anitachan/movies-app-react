@@ -1,8 +1,8 @@
 import { render } from '@testing-library/react';
-import { FavoritesPage } from './FavoritesPage';
-import { Dashboard } from '../components/Dashboard';
 import { fixtureOf } from 'ts-mock-autofixture-kit';
+import { Dashboard } from '../components/Dashboard';
 import { MovieDetail } from '../models/movieDetail';
+import { FavoritesPage } from './FavoritesPage';
 
 const mockUseNavigate = jest.fn();
 jest.mock(
@@ -10,7 +10,7 @@ jest.mock(
   () => ({
     useNavigate: () => mockUseNavigate,
   }),
-  { virtual: true },
+  { virtual: true }
 );
 const mockMovies = fixtureOf<MovieDetail[]>({ seed: 42 }).create();
 
@@ -30,7 +30,7 @@ describe('FavoritesPage', () => {
     expect(container).toMatchSnapshot();
     expect(Dashboard).toHaveBeenCalledWith(
       expect.objectContaining({ movies: mockMovies }),
-      undefined,
+      undefined
     );
   });
 });

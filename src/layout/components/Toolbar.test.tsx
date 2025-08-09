@@ -14,13 +14,13 @@ jest.mock(
   () => ({
     useLocation: () => mockLocation,
   }),
-  { virtual: true },
+  { virtual: true }
 );
 
 describe('Toolbar', () => {
   test('should render toolbar', () => {
     const { container } = render(
-      <Toolbar open={true} drawerWidth={100} handleDrawerOpen={jest.fn()} />,
+      <Toolbar open={true} drawerWidth={100} handleDrawerOpen={jest.fn()} />
     );
 
     expect(container).toMatchSnapshot();
@@ -28,7 +28,7 @@ describe('Toolbar', () => {
 
   test('should show menu icon when open is false', () => {
     const { container } = render(
-      <Toolbar open={false} drawerWidth={100} handleDrawerOpen={jest.fn()} />,
+      <Toolbar open={false} drawerWidth={100} handleDrawerOpen={jest.fn()} />
     );
 
     const menuIcon = screen.getByTestId('menu-icon');

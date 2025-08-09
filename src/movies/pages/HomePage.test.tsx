@@ -1,8 +1,8 @@
 import { render } from '@testing-library/react';
-import { HomePage } from './HomePage';
-import { Dashboard } from '../components/Dashboard';
 import { fixtureOf } from 'ts-mock-autofixture-kit';
+import { Dashboard } from '../components/Dashboard';
 import { Movie } from '../models/movies.model';
+import { HomePage } from './HomePage';
 
 const mockMovies = fixtureOf<Movie[]>({ seed: 42 }).create();
 const mockLoad = jest.fn();
@@ -23,7 +23,7 @@ describe('HomePage', () => {
     expect(container).toMatchSnapshot();
     expect(Dashboard).toHaveBeenCalledWith(
       expect.objectContaining({ loadMore: mockLoad, movies: mockMovies }),
-      undefined,
+      undefined
     );
   });
 });
